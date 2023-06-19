@@ -211,7 +211,7 @@ checkpoint.0, fully-acked: NO, page.0 size: 67108864  <1>
 
 *Sample with corrupted page file*
 
-If Logstash doesn't start and/or `pqcheck` shows an anomaly, such as `NOT_FOUND` for a page, run `pqrepair` on the queue directory.
+If Logstash doesn't start and/or `pqcheck` shows an anomaly, such as `NOT FOUND` for a page, run `pqrepair` on the queue directory.
 
 [source,txt]
 -----
